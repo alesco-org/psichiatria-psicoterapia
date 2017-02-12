@@ -1,4 +1,4 @@
-cristina:
+cristina-cimmino:
   name             : "Cristina Cimmino"
   avatar           : "/assets/images/profile/cristina.jpg"
   bio              : "Psichiatra e psicoterapeuta bla bla bla"
@@ -6,7 +6,7 @@ cristina:
   email            : "cristinacimmino@email.com"
 
 
-stefano:
+stefano-ierace:
   name             : "Stefano Ierace"
   avatar           : "/assets/images/profile/stefano.jpg"
   bio              : "Psichiatra e psicoterapeuta bla bla bla"

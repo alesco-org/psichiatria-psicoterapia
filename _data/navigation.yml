@@ -1,13 +1,13 @@
 # main links
 main:
   - title: "Chi Siamo"
-    url: "/chi-siamo"
+    url: "/#chi-siamo"
   - title: "Cosa Facciamo"
-    url: "/cosa-facciamo"
+    url: "/#cosa-facciamo"
   - title: "Contatti"
-    url: "/contatti"
+    url: "/#contatti"
   - title: "Link"
-    url: "/link"
+    url: "/#link"
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
