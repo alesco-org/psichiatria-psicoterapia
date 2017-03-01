@@ -4,8 +4,18 @@ author_profile: false
 ---
 # Disturbi del Comportamento Alimentare
 
-Sed finibus eros sem, ac tincidunt ex vulputate eu. Phasellus pellentesque ullamcorper turpis, id euismod lacus scelerisque ac. Suspendisse sed dolor ornare, varius justo et, molestie orci. Maecenas pulvinar leo placerat dui porttitor, quis scelerisque tellus hendrerit. Fusce sagittis velit enim, quis faucibus arcu semper quis. Nam vitae nunc eu libero tempor tempor. Nulla facilisi.
+![Disturbi del Comportamento Alimentare]({{ "/assets/images/unsplash-gallery-image-1-th.jpg" | absolute_url }})
 
-Integer fermentum commodo gravida. Donec finibus turpis eros, a pharetra sem vehicula non. Integer tristique in mauris nec viverra. Sed tempor, purus ut iaculis interdum, odio velit laoreet tellus, ac dapibus diam nisi ac dui. Donec fringilla tincidunt dui ut condimentum. Maecenas sapien arcu, rutrum sed eleifend vitae, lacinia quis sapien. Vivamus facilisis arcu orci, eu iaculis felis tempor et. Aenean vitae sapien a tortor pharetra consequat at sed nunc. Sed semper ultrices erat, id pharetra diam vehicula ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi posuere auctor lacus id congue. Nulla posuere libero id viverra condimentum. Etiam hendrerit accumsan mauris. Aliquam eu metus blandit, ultrices erat eu, hendrerit odio. Pellentesque quis justo pretium, feugiat nisl vel, fermentum quam.
+Tra i disturbi più frequenti e conosciuti del comportamento alimentare troviamo **l’anoressia, la bulimia e il binge eating disorder**, (ovvero l’alimentazione incontrollata). Anche se nel’immaginario comune il disturbo alimentare coincide con l’anoressia, la bulimia e il binge-eating sono più frequenti e potenzialmente più  pericolosi. Dobbiamo comunque considerare la gravità del disturbo alimentare in genere e come questo, si leghi a **rischi molto precisi per la salute che possono essere anche fatali**.
 
-Proin id nunc metus. Vivamus sit amet sodales felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac lacinia turpis. Aenean a ultrices enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc id augue volutpat, aliquam eros sit amet, consectetur leo. Cras rutrum vehicula mi. Phasellus a leo vitae tellus consequat ultrices sit amet nec metus. Nulla at nisl nec turpis pulvinar semper non a nunc. Sed fermentum scelerisque ante, quis ullamcorper sem egestas in. Mauris rhoncus accumsan hendrerit.
+Questo disturbo, indipendentemente dal tipo specifico di manifestazione comportamentale, **è spesso la punta di un’iceberg** di una sofferenza psichica particolarmente complessa, che condiziona la vita di chi ne soffre.
+
+La persona che soffre di disturbo alimentare **non è quasi mai consapevole del suo disagio, crede di poterlo controllare autonomamente e non desidera essere aiutato**. Per tale ragione è molto importante il ruolo dei familiari, o del partner che possono chiedere di essere “aiutati ad aiutare”. Quando si tratta di ragazzi giovani e minorenni, sempre più presenti nelle casistiche cliniche, questo è un vero e proprio dovere. I familiari, possono essere preoccupati quando devono rivolgersi ad un professionista, perché temono di essere colpevolizzati. **Sgomberare il campo dai sensi di colpa** è il primo passo che come psicoterapeuti dobbiamo compiere, anche quando la vita familiare è stata segnata da eventi di cui alcuni componenti possono sentirsi in varia misura responsabili. 
+
+Dato che il disturbo alimentare può associarsi a varie patologie psichiatriche e anche fisiche, per via della malnutrizione, o del vomito, è molto importante un **approccio multidisciplinare**. 
+
+Solitamente la valutazione è quindi psicologica, psichiatrica e medico- nutrizionale e **coinvolge, ove possibile, paziente e famiglia**. 
+
+Il trattamento dipende dall’esito della valutazione, ma **spesso la psicoterapia familiare, o di coppia, è estremamente indicata** per supportare il percorso individuale del paziente.    
+
+**La famiglia** nell’ approccio sistemico- relazionale è la risorsa principale a cui attingere per fornire, al paziente e alla famiglia stessa, una  occasione di cura.
