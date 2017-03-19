@@ -61,10 +61,89 @@ Pellentesque lorem sem, tempus quis rutrum sed, faucibus eget nisi. Suspendisse 
 </div>
 <div style="clear: both"></div>
 <h2 id="cosa-facciamo">Cosa Facciamo</h2>
-<p>
-Nulla velit tellus, ullamcorper eu augue id, tristique porttitor velit. Donec eu magna vitae sem imperdiet bibendum. Donec nibh lectus, aliquam quis luctus quis, efficitur eget orci.
-</p>
-{% include feature_row %}
+
+<div class="feature__wrapper wow fadeInUp">
+  <div class="feature__item">
+    <div class="media featuresContent">
+              <span class="media-left bg-color-1">
+                <i class="fa fa-check bg-color-1" aria-hidden="true"></i>
+              </span>
+      <div class="media-body">
+        <h3 class="media-heading color-1">Valutazione Psicodiagnostica</h3>
+      </div>
+      <div style="clear:both"></div>
+      <ul>
+        <li>Valutazione psichiatrica</li>
+        <li>Valutazione psicologica</li>
+        <li>Consulenze individuali, di coppia e familiari</li>
+      </ul>
+    </div>
+  </div>
+  <div class="feature__item">
+    <div class="media featuresContent">
+              <span class="media-left bg-color-1">
+                <i class="fa fa-check bg-color-1" aria-hidden="true"></i>
+              </span>
+      <div class="media-body">
+        <h3 class="media-heading color-1">Psicoterapia</h3>
+      </div>
+      <div style="clear:both"></div>
+      <ul>
+        <li>Terapia farmacologica</li>
+        <li>Psicoterapia di coppia</li>
+        <li>Psicoterapia familiare</li>
+        <li>Psicoterapia individuale</li>
+      </ul>
+    </div>
+  </div>
+  <div class="feature__item">
+    <div class="media featuresContent">
+              <span class="media-left bg-color-1">
+                <i class="fa fa-check bg-color-1" aria-hidden="true"></i>
+              </span>
+      <div class="media-body">
+        <h3 class="media-heading color-1">Supporto alla Genitorialità</h3>
+      </div>
+      <div style="clear:both"></div>
+      <ul>
+        <li>Mediazione familiare</li>
+        <li>Incontri di gruppo</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style="text-align: center; clear: both; margin-bottom: 30px">
+    <p>
+      Chiamaci adesso per avere maggiori informazioni:
+    </p>
+    <p>
+      <a href="tel:+393333354869" class="btn btn--info"><span class="fa fa-phone"></span> 333 3354869</a>
+    </p>
+  </div>
+
+</div>
+
+<h2>Ultimi Articoli del Blog</h2>
+<div class="feature__wrapper  wow fadeInUp">
+  {% assign postSorted = site.posts | sort: "date" | reverse %}
+  {% for post in postSorted limit: 3 %}
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <img src="{{ '/assets/images/unsplash-gallery-image-2-th.jpg' | absolute_url }}" alt="{{ post.title }}">
+      </div>
+    </div>
+    <div class="archive__item-body">
+      <h3 class="archive__item-title">{{ post.title }}</h3>
+      <div class="archive__item-excerpt">
+        <p>{{ post.excerpt }}</p>
+        <p><a href="{{ '/#test-link' | absolute_url }}">Leggi tutto...</a></p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
 
 <h2 id="contatti">Contatti</h2>
 <p>

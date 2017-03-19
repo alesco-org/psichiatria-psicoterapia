@@ -410,3 +410,78 @@
   top:450px;  /* your iframe height */
   margin-top:-450px;  /* your iframe height */
 }
+
+
+
+
+.featuresContent ul li {
+  font-size: 18px;
+  margin-left: 36px;
+  list-style-type: none;
+}
+
+.media-body h3.media-heading {
+  padding-top: 5px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  //font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  //text-transform: capitalize;
+  text-overflow: ellipsis;
+  //white-space: nowrap;
+  //overflow: hidden;
+}
+
+.featuresContent {
+  margin-bottom: 40px;
+}
+.featuresContent .media-left {
+  width: 56px;
+  height: 56px;
+  padding: 6px;
+  margin-right: 20px;
+  display: inline-block;
+  float: left;
+  -webkit-box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.featuresContent .media-left i {
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  //border: 2px solid #ffffff;
+  text-align: center;
+  font-size: 22px;
+  color: #ffffff;
+  //-webkit-transition: all 0.3s ease-in-out;
+  //-moz-transition: all 0.3s ease-in-out;
+  //-ms-transition: all 0.3s ease-in-out;
+  //-o-transition: all 0.3s ease-in-out;
+  //transition: all 0.3s ease-in-out;
+}
+.featuresContent .media-left:hover i {
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+.bg-color-1 {
+  background-image: url("/assets/images/ball.png");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  //background-color: mix(#640064, #ffffff, 20%) !important
+}
+
+.color-1 {
+  color: #640064 !important
+}
