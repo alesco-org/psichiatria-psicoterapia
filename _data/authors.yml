@@ -1,14 +1,14 @@
 cristina-cimmino:
   name             : "Cristina Cimmino"
   avatar           : "/assets/images/profile/cristina.jpg"
-  bio              : "Psicoterapeuta bla bla bla"
+  bio              : "Psicologa Psicoterapeuta"
   location         : "Roma"
-  email            : "cristinacimmino@email.com"
+  email            : "cimminocristina79@gmail.com"
 
 
 stefano-ierace:
   name             : "Stefano Ierace"
   avatar           : "/assets/images/profile/stefano.jpg"
-  bio              : "Psichiatra e psicoterapeuta bla bla bla"
+  bio              : "Psichiatra Psicoterapeuta"
   location         : "Roma"
-  email            : "stefanoierace@email.com"
+  email            : "stefano.ierace@hotmail.com"
