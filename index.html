@@ -43,12 +43,7 @@ feature_row:
 ---
 
 <h2 id="chi-siamo">Chi Siamo</h2>
-<p>
-Integer vitae luctus diam. Pellentesque lorem sem, tempus quis rutrum sed, faucibus eget nisi. Suspendisse fermentum ut nulla id pretium. Nam vitae dolor lacinia, bibendum mauris a, scelerisque mi. Curabitur tempor gravida dignissim. Cras cursus, nulla non ultrices molestie, velit ipsum mollis est, quis scelerisque elit diam vel elit. Sed in ligula sollicitudin, dignissim purus at, luctus nisi.
-</p>
-<p>
-Pellentesque lorem sem, tempus quis rutrum sed, faucibus eget nisi. Suspendisse fermentum ut nulla id pretium. Nam vitae dolor lacinia, bibendum mauris a, scelerisque mi. Curabitur tempor gravida dignissim. Cras cursus, nulla non ultrices molestie, velit ipsum mollis est, quis scelerisque elit diam vel elit. Sed in ligula sollicitudin, dignissim purus at, luctus nisi.
-</p>
+
 <div style="padding-bottom: 15px" class="feature__wrapper wow fadeInUp">
   <div class="feature__item">
     {% include author-profile-embedded.html author="cristina-cimmino" %}
@@ -135,44 +130,46 @@ Pellentesque lorem sem, tempus quis rutrum sed, faucibus eget nisi. Suspendisse 
 </div>
 
 <div style="clear: both"></div>
-<h2 id="aree-intervento">Aree di Intervento</h2>
 
-<div class="feature__wrapper wow fadeInUp">
-
-  <div class="feature__item">
-    <ul>
-      <li>Anoressia, bulimia e altri disturbi del comportamento alimentari</li>
-      <li>Attacchi di panico e fobie</li>
-      <li>Conflitti di coppia</li>
-      <li>Conflitti familiari</li>
-    </ul>
-  </div>
-  <div class="feature__item">
-    <ul>
-      <li>Depressione</li>
-      <li>Disturbo borderline e altri disturbi di personalità</li>
-      <li>Disturbo bipolare</li>
-      <li>Disturbo ossessivo-compulsivo</li>
-    </ul>
-  </div>
-  <div class="feature__item">
-    <ul>
-      <li>Psicopatologia dell'adolescenza e prevenzione del disagio psichico</li>
-      <li>Schizofrenia e altri disturbi psicotici</li>
-      <li>Supporto alla genitorialità e sostegno dell'adolescente</li>
-    </ul>
-  </div>
-
-</div>
-
-<div style="text-align: center; clear: both; margin-bottom: 30px; margin-top: 30px">
+<div class="chiama-ora">
   <p>
     Chiamaci adesso per avere maggiori informazioni:
   </p>
   <p>
-    <a href="tel:+393333354869" class="btn btn--info"><span class="fa fa-phone"></span> 333 3354869</a>
+    <a href="tel:{{site.phone.prefix}}{{site.phone.num}}" class="btn btn--info"><span class="fa fa-phone"></span> {{site.phone.num}}</a>
   </p>
 </div>
+
+<h2 id="aree-intervento">Aree di Intervento</h2>
+
+<div class="feature__wrapper aree-intervento wow fadeInUp">
+
+  <div class="feature__item">
+    <ul>
+      <li><i class="fa fa-dot-circle-o"></i> Anoressia, bulimia e altri disturbi del comportamento alimentari</li>
+      <li><i class="fa fa-dot-circle-o"></i> Attacchi di panico e fobie</li>
+      <li><i class="fa fa-dot-circle-o"></i> Conflitti di coppia</li>
+      <li><i class="fa fa-dot-circle-o"></i> Conflitti familiari</li>
+    </ul>
+  </div>
+  <div class="feature__item">
+    <ul>
+      <li><i class="fa fa-dot-circle-o"></i> Depressione</li>
+      <li><i class="fa fa-dot-circle-o"></i> Disturbo borderline e altri disturbi di personalità</li>
+      <li><i class="fa fa-dot-circle-o"></i> Disturbo bipolare</li>
+      <li><i class="fa fa-dot-circle-o"></i> Disturbo ossessivo-compulsivo</li>
+    </ul>
+  </div>
+  <div class="feature__item">
+    <ul>
+      <li><i class="fa fa-dot-circle-o"></i> Psicopatologia dell'adolescenza e prevenzione del disagio psichico</li>
+      <li><i class="fa fa-dot-circle-o"></i> Schizofrenia e altri disturbi psicotici</li>
+      <li><i class="fa fa-dot-circle-o"></i> Supporto alla genitorialità e sostegno dell'adolescente</li>
+    </ul>
+  </div>
+
+</div>
+
 
 <h2>Ultimi Articoli del Blog</h2>
 <div class="feature__wrapper  wow fadeInUp">
@@ -181,24 +178,36 @@ Pellentesque lorem sem, tempus quis rutrum sed, faucibus eget nisi. Suspendisse 
   <div class="feature__item">
     <div class="archive__item">
       <div class="archive__item-teaser">
-        <img src="{{ '/assets/images/unsplash-gallery-image-2-th.jpg' | absolute_url }}" alt="{{ post.title }}">
+        <a href="{{ post.url | absolute_url }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
       </div>
     </div>
     <div class="archive__item-body">
-      <h3 class="archive__item-title">{{ post.title }}</h3>
+      <h3 class="archive__item-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h3>
       <div class="archive__item-excerpt">
         <p>{{ post.excerpt }}</p>
-        <p><a href="{{ '/#test-link' | absolute_url }}">Leggi tutto...</a></p>
+
+        <p><a href="{{ post.url | absolute_url }}">Leggi tutto...</a></p>
       </div>
     </div>
   </div>
   {% endfor %}
 </div>
+<div>
+  <p style="text-align: center">
+    <a href="/blog" class="btn btn--info"><span class="fa fa-podcast"></span> Visita il Blog</a>
+  </p>
+</div>
 
 
 <h2 id="contatti">Contatti</h2>
 <p>
-  Nulla velit tellus, ullamcorper eu augue id, tristique porttitor velit. Donec eu magna vitae sem imperdiet bibendum. Donec nibh lectus, aliquam quis luctus quis, efficitur eget orci.
+  Puoi contattarci al seguente numero per avere maggiori informazioni:
+</p>
+<p style="text-align: center">
+  <a href="tel:{{site.phone.prefix}}{{site.phone.num}}" class="btn btn--info"><span class="fa fa-phone"></span> {{site.phone.num}}</a>
+</p>
+<p>
+  Il nostro studio si trova in <strong>via xxx n. 1, Roma.</strong>
 </p>
 <div>
   <div class="map_overlay" onClick="style.pointerEvents='none'"></div>
@@ -213,5 +222,5 @@ Pellentesque lorem sem, tempus quis rutrum sed, faucibus eget nisi. Suspendisse 
 
 <h2 id="link">Link</h2>
 <p>
-  Nulla velit tellus, ullamcorper eu augue id, tristique porttitor velit. Donec eu magna vitae sem imperdiet bibendum. Donec nibh lectus, aliquam quis luctus quis, efficitur eget orci.
+  -
 </p>

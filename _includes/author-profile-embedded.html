@@ -3,7 +3,7 @@
 <div itemscope itemtype="http://schema.org/Person">
 
   {% if author.avatar %}
-    <div style="margin: auto" class="author__avatar__embedded">
+    <div style="margin: auto" class="author__avatar__embedded custom-author">
       {% if author.avatar contains "://" %}
         <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
       {% else %}
@@ -12,7 +12,7 @@
     </div>
   {% endif %}
 
-  <div style="text-align: center" class="author__content">
+  <div style="text-align: center" class="author__content custom-author">
     <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
     {% if author.bio %}
       <p class="author__bio" itemprop="description">

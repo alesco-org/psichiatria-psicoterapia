@@ -48,6 +48,12 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+
+# Info
+phone:
+  prefix: "+39"
+  num: "347 8442182"
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -239,7 +245,6 @@ defaults:
       type: posts
     values:
       layout: single
-      author: cristina-cimmino
       author_profile: true
       read_time: true
       comments: # true

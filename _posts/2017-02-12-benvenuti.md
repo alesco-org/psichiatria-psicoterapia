@@ -1,5 +1,0 @@
----
-title:  Benvenuti1
-categories: [News]
----
-Benvenuti nel nostro nuovo blog.
