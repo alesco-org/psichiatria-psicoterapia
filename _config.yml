@@ -50,9 +50,8 @@ atom_feed:
 
 
 # Info
-phone:
-  prefix: "+39"
-  num: "347 8442182"
+address                  : "Via Gian Luca Squarcialupo 20, Roma"
+address_maps             : "via+gian+luca+squarcialupo+20+roma"
 
 # SEO Related
 google_site_verification :

@@ -243,6 +243,14 @@
         </li>
         {% endif %}
 
+        {% if author.phone%}
+        <li>
+          <a href="tel://{{ author.phone }}" itemprop="sameAs">
+            <i class="fa fa-phone" aria-hidden="true"></i> {{ author.phone }}
+          </a>
+        </li>
+        {% endif %}
+
         {% include author-profile-custom-links.html %}
       </ul>
     </div>

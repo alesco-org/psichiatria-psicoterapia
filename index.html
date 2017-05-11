@@ -136,13 +136,15 @@ feature_row:
     Chiamaci adesso per avere maggiori informazioni:
   </p>
   <p>
-    <a href="tel:{{site.phone.prefix}}{{site.phone.num}}" class="btn btn--info"><span class="fa fa-phone"></span> {{site.phone.num}}</a>
+    <a href="tel:{{site.data.authors.stefano-ierace.phone}}" class="btn btn--info"><span class="fa fa-phone"></span> {{site.data.authors.stefano-ierace.phone}} <br/>Stefano Ierace</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="tel:{{site.data.authors.cristina-cimmino.phone}}" class="btn btn--info"><span class="fa fa-phone"></span> {{site.data.authors.cristina-cimmino.phone}} <br/>Cristina Cimmino</a>
   </p>
 </div>
 
 <h2 id="aree-intervento">Aree di Intervento</h2>
 
-<div class="feature__wrapper aree-intervento wow fadeInUp">
+<div class="feature__wrapper text-left aree-intervento wow fadeInUp">
 
   <div class="feature__item">
     <ul>
@@ -201,13 +203,15 @@ feature_row:
 
 <h2 id="contatti">Contatti</h2>
 <p>
-  Puoi contattarci al seguente numero per avere maggiori informazioni:
+  Puoi contattarci ai seguenti numeri per avere maggiori informazioni:
 </p>
 <p style="text-align: center">
-  <a href="tel:{{site.phone.prefix}}{{site.phone.num}}" class="btn btn--info"><span class="fa fa-phone"></span> {{site.phone.num}}</a>
+  <a href="tel:{{site.data.authors.stefano-ierace.phone}}" class="btn btn--info"><span class="fa fa-phone"></span> {{site.data.authors.stefano-ierace.phone}} <br/>Stefano Ierace</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="tel:{{site.data.authors.cristina-cimmino.phone}}" class="btn btn--info"><span class="fa fa-phone"></span> {{site.data.authors.cristina-cimmino.phone}} <br/>Cristina Cimmino</a>
 </p>
 <p>
-  Il nostro studio si trova in <strong>via xxx n. 1, Roma.</strong>
+  Il nostro studio si trova in <strong>{{ site.address }}.</strong>
 </p>
 <div>
   <div class="map_overlay" onClick="style.pointerEvents='none'"></div>
@@ -216,11 +220,11 @@ feature_row:
     height="450"
     frameborder="0" style="border:0"
     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC__Jz-9gGGerxck7mCeCmTJmhY92Ki2gU
-    &q=Asilo+Nido+Il+Pianeta+dei+Bambini,Via+del+Circo+Massimo+9+Roma+Italy" allowfullscreen>
+    &q={{site.address_maps}}" allowfullscreen>
   </iframe>
 </div>
 
 <h2 id="link">Link</h2>
-<p>
-  -
-</p>
+<ul style="list-style: none; margin-left: 0; padding-left: 0">
+  <li><a class="btn" href="https://www.facebook.com/psichiatria.psicoterapia.3" target="_blank"><i class="fa fa-facebook"></i> Pagina Facebook</a></li>
+</ul>
