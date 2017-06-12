@@ -1,7 +1,7 @@
 ---
 title: I Disturbi del Comportamento Alimentare
 categories: [Articoli]
-image: /blogimages/disturbi-alimentari.jpg
+image: /blogimages/i-disturbi-alimentari.jpg
 ---
 Tra i disturbi più frequenti e conosciuti del comportamento alimentare troviamo l'anoressia, la bulimia e il binge eating disorder, (ovvero l'alimentazione incontrollata).
 

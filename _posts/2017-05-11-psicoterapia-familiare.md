@@ -1,7 +1,7 @@
 ---
 title: La Psicoterapia Familiare
 categories: [Articoli]
-image: /blogimages/psicoterapia-familiare.jpg
+image: /blogimages/la-psicoterapia-familiare.jpg
 ---
 La Psicoterapia Familiare ad indirizzo sistemico-relazionale, prende le mosse da un'ampia rete concettuale che comprende differenti contributi sviluppatisi tra l'Europa e gli Stati Uniti nel periodo intercorrente tra gli anni 50 e gli anni 70. 
 

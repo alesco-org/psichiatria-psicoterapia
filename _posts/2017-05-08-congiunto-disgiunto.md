@@ -1,7 +1,7 @@
 ---
 title:  L'intervento di Psicoterapia Individuale e Familiare Congiunto-Disgiunto
 categories: [Articoli]
-image: /blogimages/congiunto-disgiunto.jpg
+image: /blogimages/intervento-congiunto-disgiunto.jpg
 ---
 Il modello di psicoterapia sistemico-relazionale denominato congiunto-disgiunto è nato nella UOC dedicata ai Disturbi del Comportamento Alimentare del Policlinico Umberto I di Roma la Sapienza.
 

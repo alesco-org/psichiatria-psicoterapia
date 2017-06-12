@@ -1,7 +1,7 @@
 ---
 title: La Psicoterapia di Coppia Sistemico-Relazionale
 categories: [Articoli]
-image: "/blogimages/psicoterapia-di-coppia.jpg"
+image: "/blogimages/la-psicoterapia-di-coppia.jpg"
 ---
 La psicoterapia di coppia  è un intervento che tiene conto della complessità del sistema coppia. Non si basa sul concetto di "riparazione" di qualcosa che si è "guastato", al contrario mira ad accogliere le esigenze di cura e i molteplici bisogni che gli individui perseguono all'interno della coppia stessa.
 
