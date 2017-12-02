@@ -9,8 +9,7 @@ title: "Stefano Ierace"
 **Laureato in medicina e chirurgia** presso l'università di Roma  “La Sapienza” con votazione di 110 e lode consegue la **specializzazione in Psichiatria e Psicoterapia** con votazione di 70/70 e lode  presso la stessa università. Ha inoltre frequentato il training di formazione in psicoterapia sistemico relazionale presso l'Istituto Europeo di Formazione e Consulenza Sistemica (I.E.F.CO.S.).
 Iscritto all'ordine dei medici di Reggio Calabria dal 2010 (n.8602).
 
-Attualmente svolge l'attività di **Psichiatra di comunità** presso la struttura psichiatrica residenziale *Colle Cesarano* ed è socio del Centro S.E. *Silent Emotions - Diagnosi e Cura per i Disturbi del Comportamento Alimentare*.
-
+Socio del Centro S.E. *Silent Emotions - Diagnosi e Cura per i Disturbi del Comportamento Alimentare*.
 
 Nell'ambito della propria formazione ha svolto:
 
